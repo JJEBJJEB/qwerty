@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	
+	
+	<body>
+		전 ${me}입니다. ${greeting}<br>
+		$me $greeting <br>
+		
+		#set($condition = true)
+    	#if ($condition)
+        	The condition is true!
+     	#else
+       		The condition is false...
+     	#end
+	</body>
+</html>
